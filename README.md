@@ -9,7 +9,7 @@ Multilevel thresholding is a crucial technique in image processing, offering a v
 <h3>Core concepts</h3>
 <b>Maximum Entropy Criterion (MEC)</b>
 The Maximum Entropy Criterion (MEC) is introduced to further refine threshold values during the iterative process. It leverages entropy calculations to enhance the precision of threshold determination. The criterion evaluates the information entropy of different segments to guide the refinement process, contributing to improved segmentation outcomes.
-
+<br>
 <b>Automatic Thresholding Criterion (ATC)</b>
 The Automatic Thresholding Criterion (ATC) is introduced as another refinement technique, providing an additional layer of precision in determining optimal threshold values. This criterion is integrated into the iterative process to enhance the algorithm's adaptability to varying image conditions.
 
@@ -26,5 +26,11 @@ Otsu's method is a key mathematical concept used in multilevel thresholding. It 
 The MEC introduces additional equations for calculating probabilities and entropy values during the refinement process:
 [img]
 
+<b>Automatic Thresholding Criterion (ATC) Equations</b>
+Similarly, the ATC introduces equations for probability and entropy calculations during the refinement process:
+[img]
 
+
+
+<h3>Image Results</h3>
 
